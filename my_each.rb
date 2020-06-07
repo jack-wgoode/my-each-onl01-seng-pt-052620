@@ -3,11 +3,11 @@ def my_each(collection)
     while i < collection.length
       yield(collection[i])
     end
-  end
+end
 end
 
 collection = [1,2,3,4]
 
-my_each(collection) do |i|
-  puts i
+my_each(collection) do |number|
+  puts number
 end
