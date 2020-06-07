@@ -6,6 +6,7 @@ def my_each(collection)
       i += 1
     end
  end
+ collection
 end
 
 collection = [1,2,3,4]
